@@ -12,6 +12,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
     // Create editor & start command loop
+    // extra comment for final commit
     LineEditor editor(argv[1]);
     editor.displayPrompt();
     return 0;
