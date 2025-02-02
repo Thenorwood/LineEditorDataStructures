@@ -3,5 +3,6 @@ project(Assignment1)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(edit
-        src/main.cpp)
+add_executable(LineEditor
+        src/main.cpp
+        src/LineEditor.cpp)
